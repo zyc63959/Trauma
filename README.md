@@ -50,8 +50,12 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
     - Create a new Worker in the Cloudflare Worker console.
     - Will [worker.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js) Paste the contents into the Worker editor.
     - Change line 3 `password` Modify it to your own **password**
+  
+    - Alternatively, you can click the button below to deploy directly.
 
-2.  Add preferred route:
+   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
+
+3.  Add preferred route:
     - Give `addresses` Add the preferred domain name/preferred clean IP according to the format. If there is no port number, the default TLS port is 443, and the # sign is the remark alias, for example:
         ```js
         let addresses = [
@@ -63,14 +67,14 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
         ];
         ```
 
-3.  Access subscription content:
+4.  Access subscription content:
     - access `https://[YOUR-WORKERS-URL]/[password]` Get subscription content.
     - For example `https://vless.trauma.workers.dev/auto` This is your universal adaptive subscription address.
     - For example `https://vless.trauma.workers.dev/auto?sub` Base64 subscription format, suitable for PassWall, SSR+, etc.
     - For example `https://vless.trauma.workers.dev/auto?clash` Clash subscription format, suitable for OpenClash, etc.
     - For example `https://vless.trauma.workers.dev/auto?sb` singbox subscription format, suitable for singbox, etc.
 
-4.  Bind a custom domain to workers:
+5.  Bind a custom domain to workers:
     - In the workers console `trigger` tab, click below `Add a custom domain` 。
     - Fill in the secondary domain name that you have transferred to the CloudFlare domain name resolution service, for example: `vless.trauma.com` After click `Add a custom domain` , just wait for the certificate to take effect.
 
