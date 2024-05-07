@@ -1,10 +1,8 @@
-# Sunucusuz CF Çalışanları ve Sayfaları kullanarak Truva Atı'nı dağıtın
+# Trojan'ı Sunucusuz CF Çalışanları ve Sayfaları kullanarak dağıtın
 
 🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
 
 🇬🇧[İngilizce](README.md)\|[🇩🇪 Almanya](README.de.md)
-
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal versiyona dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
 
@@ -18,11 +16,12 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 -   [Sayfa dağıtım yöntemi](#Pages-deployment-method)
 -   [Proxy IP](#proxyIP)
 -   [Ortam Değişkeni açıklaması](#Environment-variables-description)
+-   [Video eğitimleri](#Video-tutorials)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <details>
 <summary> Use </summary>
 
--   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlamak ve uygulamak için bir araç sağlamayı amaçlamaktadır.
+-   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlama ve uygulama konusunda bir araç sağlamayı amaçlamaktadır.
     </details>
 
 <details>
@@ -37,8 +36,6 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 <summary> Risk warning </summary>
   - Avoid leaking node configuration information by submitting false node configurations to the subscription service 
 </details>
-
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## İşçi dağıtım yöntemi
 
@@ -109,7 +106,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -124,11 +121,9 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
 [(KAYNAK)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-
 ## Ortam değişkenleri açıklaması
 
-> [!NOT]Bunlardan sadece ikisini ayarlamak yeterli, ilk değişken`PASSWORD`ve ikinci`PROXYIP`, aşağıdaki tabloda listelenen değişkenler yalnızca eğitim amaçlıdır ve ek açıklamalar içindir.
+> [!NOT]Bunlardan sadece ikisini ayarlamak yeterli, ilk değişken`PASSWORD`ve ikinci`PROXYIP`, aşağıdaki tabloda listelenen değişkenler yalnızca eğitim amaçlıdır ve ek açıklamalar içindir.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 | değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -153,10 +148,22 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
 <https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 <https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc>
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5>
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
+<https://github.com/NiREvil/Trauma/assets/126243832/61ce0b14-2c26-4325-a6c0-6f12cfc608d7>
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 # minnettar
 
-[ca110us](https://github.com/ca110us/epeius)、[Sterilize et](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)、[zizifn](https://github.com/zizifn/edgetunnel)、[Yemen 178](https://github.com/emn178/js-sha256)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[Sheggs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、
+[ca110us](https://github.com/ca110us/epeius)\|[Sterilize et](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)\|[zizifn](https://github.com/zizifn/edgetunnel)\|[Yemen 178](https://github.com/emn178/js-sha256)\|[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)\|[Sheggs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
