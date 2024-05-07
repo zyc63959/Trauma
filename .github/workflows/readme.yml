@@ -19,7 +19,7 @@ jobs:
         uses: dephraiim/translate-readme@main
         with:
           LANG: tr
-      - name: Adding README - Persian
+      - name: Adding README - Germany
         uses: dephraiim/translate-readme@main
         with:
-          LANG: fa
+          LANG: de
