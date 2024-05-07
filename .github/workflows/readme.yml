@@ -15,10 +15,10 @@ jobs:
         with:
           node-version: 12.x
       # ISO Langusge Codes: https://cloud.google.com/translate/docs/languages  
-      - name: Adding README - English
+      - name: Adding README - Turkish
         uses: dephraiim/translate-readme@main
         with:
-          LANG: en
+          LANG: tr
       - name: Adding README - Persian
         uses: dephraiim/translate-readme@main
         with:
