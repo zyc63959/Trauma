@@ -84,7 +84,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 1.  Deploy Cloudflare Pages:
     - Fork [this project on Github](https://github.com/NiREvil/Trauma/fork)
     - Select in the Cloudflare Pages console `Connected to Git` After that, select `trauma` Click after the item `Start setting up`。
-    - exist `Setting up build and deployment` At the bottom of the page, select `Environment variables (advanced)` merge later [Add variables](#Variable-description),
+    - exist `Setting up build and deployment` At the bottom of the page, select `Environment variables (advanced)` merge later [Add variables](#Environment-variables-description),
      - Fill in the variable name **PASSWORD** , the value is your password, then click `Save and deploy` That’s it.
 
 2.  Add preferred route:
@@ -144,7 +144,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | TGTOKEN       | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                 | Robot token for sending TG notifications                                                                                                        |
 | YOU DO        | 6946912345                                                                                                                                     | Account digital ID to receive TG notifications                                                                                                  |
 | SUB           | trojan.fxxk.dedyn.io                                                                                                                           | Preferred subscription generator address (using the subscriber will give up`ADD`local premium subscription content within )                     |
-| subapi        | apiurl.v1.mk                                                                                                                                   | clash, singbox, etc. subscription conversion backend                                                                                            |
+| SUBAPI        | apiurl.v1.mk                                                                                                                                   | clash, singbox, etc. subscription conversion backend                                                                                            |
 | SUBCONFIG     | [https://raw.github.../ACL4SSR_Online_Mini.ini](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini) | clash, singbox, etc. Subscription conversion profiles                                                                                           |
 | SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                                                                               |
 | 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
