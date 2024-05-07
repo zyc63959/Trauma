@@ -14,7 +14,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ## Inhaltsverzeichnis
 
--   [Workers deployment method](#Workers-deployment-method)
+-   [Methode zur Bereitstellung von Arbeitskräften](#Workers-deployment-method)
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
 -   [ProxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
@@ -117,9 +117,9 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ## ProxyIP
 
-1.  Bei der Bereitstellung auf Cloudflare-Seiten können Sie Proxy-IP festlegen`_worker.js`Datei. Oder legen Sie die Umgebungsvariable fest. Der Variablenname lautet`PROXYIP`
+1.  Bei der Bereitstellung auf Cloudflare-Seiten können Sie ProxyIP in der 4. Zeile festlegen`_worker.js`Datei. Oder legen Sie die Umgebungsvariable fest. Der Variablenname lautet`PROXYIP`
 
-2.  Bei der Bereitstellung in worker.dev können Sie ProxyIP festlegen`_worker.js`Datei. Oder legen Sie die Umgebungsvariable fest. Der Variablenname lautet`proxyIP`
+2.  Bei der Bereitstellung in worker.dev können Sie ProxyIP in der 4. Zeile von festlegen`_worker.js`Datei. Oder legen Sie die Umgebungsvariable fest. Der Variablenname lautet`proxyIP`
 
 ### So finden Sie ProxyIP
 
