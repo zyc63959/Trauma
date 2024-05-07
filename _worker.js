@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = 'ni.radically.pro';
+let proxyIP = '';// 'ni.radically.pro';
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
@@ -24,7 +24,7 @@ let addresses = [
 let sub = '';
 let subconverter = 'apiurl.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
-let RproxyIP = 'false';
+let RproxyIP = 'true';
 
 let addressesapi = [];// you can use my addresses api:  [https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt];
 let addressescsv = [];
