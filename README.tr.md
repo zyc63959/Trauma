@@ -1,4 +1,4 @@
-# Trojan'ı Sunucusuz CF Çalışanları ve Sayfaları kullanarak dağıtın
+# Sunucusuz CF Çalışanları ve Sayfaları kullanarak Truva Atı'nı dağıtın
 
 🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
 
@@ -22,7 +22,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 <details>
 <summary> Use </summary>
 
--   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlama ve uygulama konusunda bir araç sağlamayı amaçlamaktadır.
+-   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlamak ve uygulamak için bir araç sağlamayı amaçlamaktadır.
     </details>
 
 <details>
@@ -109,7 +109,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -147,9 +147,15 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 | 02               | <https://t.me/F_NiREvil>                                                                                                                       | Ana sayfa 302 atlaması (URL'ler arasında kullanılan birden fazla URL'yi destekler)`,`Veya satır sonunu aralayıcı olarak kullanın, eğer bu konuda yeniyseniz kullanmayın)                       |
 | URL'si           | <https://t.me/F_NiREvil>                                                                                                                       | Ana sayfa gizleme (URL'ler arasında kullanılan birden fazla URL'yi destekler)`,`Veya satır sonlarını aralık olarak kullanın, rastgele ayarlar dolandırıcılığı önlemeyi kolayca tetikleyebilir) |
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 ## Video eğitimleri
 
 <https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
+
+<https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc>
+
+<https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5>
 
 # minnettar
 
