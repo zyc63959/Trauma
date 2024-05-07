@@ -48,7 +48,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 
     -   İrade[işçi.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js)İçeriği Worker düzenleyicisine yapıştırın.
 
-    -   Change line 3 `password`Kendinize göre değiştirin**şifre**
+    -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
 
     -   Alternatif olarak, doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
 
