@@ -1,4 +1,4 @@
-# Sunucusuz CF Çalışanları ve Sayfaları kullanarak Truva Atı'nı dağıtın
+# Trojan'ı Sunucusuz CF Çalışanları ve Sayfaları kullanarak dağıtın
 
 🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
 
@@ -6,7 +6,7 @@
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal sürüme dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
+Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal versiyona dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
 
 [TG Kanalı](https://t.me/F_NiREvil)
 
@@ -22,7 +22,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 <details>
 <summary> Use </summary>
 
--   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlamak ve uygulamak için bir araç sağlamayı amaçlamaktadır.
+-   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlama ve uygulama konusunda bir araç sağlamayı amaçlamaktadır.
     </details>
 
 <details>
@@ -54,7 +54,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
-2.  Add preferred route:
+2.  Tercih edilen rotayı ekle:
     -   Vermek`addresses`Tercih edilen alan adını/tercih edilen temiz IP'yi formata göre ekleyin. Bağlantı noktası numarası yoksa varsayılan TLS bağlantı noktası 443'tür ve # işareti açıklama takma adıdır, örneğin:
         ```js
         let addresses = [
@@ -67,7 +67,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
         ```
 
 3.  Abonelik içeriğine erişin:
-    -   access `https://[YOUR-WORKERS-URL]/[password]`Abonelik içeriğini alın.
+    -   erişim`https://[YOUR-WORKERS-URL]/[password]`Abonelik içeriğini alın.
     -   Örneğin`https://vless.trauma.workers.dev/auto`Bu sizin evrensel uyarlanabilir abonelik adresinizdir.
     -   Örneğin`https://vless.trauma.workers.dev/auto?sub`Base64 abonelik formatı; PassWall, SSR+ vb. için uygundur.
     -   Örneğin`https://vless.trauma.workers.dev/auto?clash`OpenClash vb. için uygun Clash abonelik formatı.
@@ -88,17 +88,16 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
     -   Değişken adını girin**ŞİFRE**, değer şifrenizdir, ardından tıklayın`Save and deploy`Bu kadar.
 
 2.  Tercih edilen rotayı ekle:
-
--   Değişken ekle`ADD`Yerel statik tercihli hat; bağlantı noktası numarası yoksa, varsayılan TLS bağlantı noktası 443'tür ve # numarasının ardından bir açıklama takma adı gelir, örneğin:
-    ```js
-     discord.com#You can just put the domain name as follows
-     www.speedtest.net:443#Ni1
-     time.is#Ni2
-     zula.ir#Ni3
-     www.visa.com.sg:2053#Ni4
-     104.17.152.41#IP Also available
-     [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
-    ```
+    -   Değişken ekle`ADD`Yerel statik tercihli hat; bağlantı noktası numarası yoksa, varsayılan TLS bağlantı noktası 443'tür ve # numarasının ardından bir açıklama takma adı gelir, örneğin:
+        ```js
+         discord.com#You can just put the domain name as follows
+         www.speedtest.net:443#Ni1
+         time.is#Ni2
+         zula.ir#Ni3
+         www.visa.com.sg:2053#Ni4
+         104.17.152.41#IP Also available
+         [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
+        ```
 
 3.  Abonelik içeriğine erişin:
     -   erişim`https://[YOUR-PAGES-URL]/[password]`Abonelik içeriği mevcuttur.
@@ -110,7 +109,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -133,8 +132,8 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 
 | değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ŞİFRE            | Oto                                                                                                                                            | Her türlü değeri alabilir                                                                                                                                                                      |
-| PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | As a proxy node to access the CloudFlareCDN site (supports multiple ProxyIPs, used between ProxyIPs`,`veya aralık olarak satır besleme)                                                        |
+| ŞİFRE            | Oto                                                                                                                                            | Her değeri alabilir                                                                                                                                                                            |
+| PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)veya kullan`ni.radically.pro`                                      | CloudFlareCDN sitesine erişmek için bir proxy düğümü olarak (ProxyIP'ler arasında kullanılan birden fazla ProxyIP'yi destekler)`,`veya aralık olarak satır besleme)                            |
 | EKLEMEK          | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                                                                               |
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
 | ADCCSV           |                                                                                                                                                | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
@@ -147,6 +146,10 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 | ALT AD           | kötü                                                                                                                                           | Abonelik adı                                                                                                                                                                                   |
 | 02               | <https://t.me/F_NiREvil>                                                                                                                       | Ana sayfa 302 atlaması (URL'ler arasında kullanılan birden fazla URL'yi destekler)`,`Veya satır sonunu aralayıcı olarak kullanın, eğer bu konuda yeniyseniz kullanmayın)                       |
 | URL'si           | <https://t.me/F_NiREvil>                                                                                                                       | Ana sayfa gizleme (URL'ler arasında kullanılan birden fazla URL'yi destekler)`,`Veya satır sonlarını aralık olarak kullanın, rastgele ayarlar dolandırıcılığı önlemeyi kolayca tetikleyebilir) |
+
+## Video eğitimleri
+
+<https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
 
 # minnettar
 
