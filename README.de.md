@@ -55,7 +55,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
 2.  Bevorzugte Route hinzufügen:
-    -   Geben`addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
+    -   Give `addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
         ```js
         let addresses = [
         	// Everything you want, Cloudflare Domains & Clean IP addresses.
