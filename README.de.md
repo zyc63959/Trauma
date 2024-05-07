@@ -4,8 +4,6 @@
 
 🇬🇧[Englisch](README.md)\|[Deutschland](README.de.md)
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-
 Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend auf der Originalversion wurde es so modifiziert, dass es Trojaner-Konfigurationsinformationen anzeigt und diese in Abonnementinhalte umwandelt. Mit diesem Skript können Sie mithilfe der Online-Konfiguration problemlos Trojaner-Konfigurationsinformationen in Tools wie Clash oder Singbox konvertieren.
 
 [TG-Kanal](https://t.me/F_NiREvil)
@@ -18,6 +16,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
 -   [ProxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
+-   [Videoanleitungen](#Video-tutorials)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <details>
 <summary> Use </summary>
@@ -37,8 +36,6 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 <summary> Risk warning </summary>
   - Avoid leaking node configuration information by submitting false node configurations to the subscription service 
 </details>
-
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Methode zur Bereitstellung von Arbeitskräften
 
@@ -106,7 +103,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     -   Zum Beispiel`https://trauma.pages.dev/auto?clash`Clash-Abonnementformat, geeignet für OpenClash usw.
     -   Zum Beispiel`https://trauma.pages.dev/auto?sb`Singbox-Abonnementformat, geeignet für Singbox usw.
 
-4.  Bind CNAME custom domain to Pages:
+4.  Benutzerdefinierte CNAME-Domäne an Seiten binden:
     -   In der Pages-Konsole`Custom domains`Klicken Sie auf die Registerkarte unten`Set up a custom domain`.
     -   Geben Sie Ihren benutzerdefinierten sekundären Domänennamen ein. Achten Sie darauf, nicht Ihren Stammdomänennamen zu verwenden, zum Beispiel:
     -   Der Ihnen zugewiesene Domainname lautet`fuck.cloudns.biz`und fügen Sie dann ein benutzerdefiniertes Feld zum Ausfüllen hinzu`iran.fuck.cloudns.biz`Das ist es;
@@ -124,13 +121,11 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 [(QUELLE)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-
 ## Beschreibung der Umgebungsvariablen
 
-> [!NOTIZ]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.
+> [!NOTIZ]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-| Variablennamen | Beispiel                                                                                                                                       | Anmerkung                                                                                                                                                                                                  |
+| Variablennamen | Example                                                                                                                                        | Anmerkung                                                                                                                                                                                                  |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | PASSWORT       | Auto                                                                                                                                           | Kann jeden Wert annehmen                                                                                                                                                                                   |
 | PROXYIP        | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)oder Verwendung`ni.radically.pro`                                 | Als Proxy-Knoten für den Zugriff auf die CloudFlareCDN-Site (unterstützt mehrere ProxyIPs, die zwischen ProxyIPs verwendet werden).`,`oder Zeilenvorschub als Intervall)                                   |
@@ -153,10 +148,22 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 <https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 <https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc>
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5>
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
+<https://github.com/NiREvil/Trauma/assets/126243832/61ce0b14-2c26-4325-a6c0-6f12cfc608d7>
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 # dankbar
 
-[ca110us](https://github.com/ca110us/epeius)、[Sterilisieren Sie es](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)、[zizifn](https://github.com/zizifn/edgetunnel)、[Jemen 178](https://github.com/emn178/js-sha256)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[Sheggs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、
+[ca110us](https://github.com/ca110us/epeius)\|[Sterilisieren Sie es](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)\|[zizifn](https://github.com/zizifn/edgetunnel)\|[Jemen 178](https://github.com/emn178/js-sha256)\|[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)\|[Sheggs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
