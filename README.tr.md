@@ -1,18 +1,18 @@
 # Trojan'ı Sunucusuz CF Çalışanları ve Sayfaları kullanarak dağıtın
 
-🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
+🇮🇷[Farsça](README.fa.md)| 🇹🇷[Turkish](README.tr.md)
 
 🇬🇧[İngilizce](README.md)\|[🇩🇪 Almanya](README.de.md)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal versiyona dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
+This is a script based on the Cloudflare Worker platform. Based on the original version, it is modified to display Trojan configuration information and convert it into subscription content. Using this script, you can easily convert Trojan configuration information to tools such as Clash or Singbox using online configuration.
 
 [TG Kanalı](https://t.me/F_NiREvil)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-## İçindekiler
+## Table of Contents
 
 -   [İşçi dağıtım yöntemi](#Workers-deployment-method)
 -   [Sayfa dağıtım yöntemi](#Pages-deployment-method)
@@ -103,7 +103,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 3.  Abonelik içeriğine erişin:
     -   erişim`https://[YOUR-PAGES-URL]/[password]`Abonelik içeriği mevcuttur.
     -   Örneğin`https://trauma.pages.dev/auto`Bu sizin evrensel uyarlanabilir abonelik adresinizdir.
-    -   Örneğin`https://trauma.pages.dev/auto?sub` Base64 subscription format, suitable for PassWall, SSR+, etc.
+    -   Örneğin`https://trauma.pages.dev/auto?sub`Base64 abonelik formatı; PassWall, SSR+ vb. için uygundur.
     -   Örneğin`https://trauma.pages.dev/auto?clash`OpenClash vb. için uygun Clash abonelik formatı.
     -   Örneğin`https://trauma.pages.dev/auto?sb`singbox abonelik formatı, singbox vb. için uygundur.
 
@@ -131,7 +131,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
 > [!NOT]Bunlardan sadece ikisini ayarlamak yeterli, ilk değişken`PASSWORD`ve ikinci`PROXYIP`, aşağıdaki tabloda listelenen değişkenler yalnızca eğitim amaçlıdır ve ek açıklamalar içindir.
 
-| değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
+| variable name    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ŞİFRE            | Oto                                                                                                                                            | Her değeri alabilir                                                                                                                                                                            |
 | PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | CloudFlareCDN sitesine erişmek için bir proxy düğümü olarak (ProxyIP'ler arasında kullanılan birden fazla ProxyIP'yi destekler)`,`veya aralık olarak satır besleme)                            |
