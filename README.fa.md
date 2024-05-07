@@ -6,7 +6,7 @@
 
 [کانال تلگرام](https://t.me/F_NiREvil)
 
-## فهرست مطالب
+## Table of Contents
 
 -   [روش استقرار کارگران](#Workers-deployment-method)
 -   [روش استقرار صفحات](#Pages-deployment-method)
@@ -54,7 +54,7 @@
 3.  دسترسی به محتوای اشتراک:
     -   دسترسی داشته باشید`https://[YOUR-WORKERS-URL]/[password]`دریافت محتوای اشتراک
     -   مثلا`https://vless.trauma.workers.dev/auto`این آدرس اشتراک تطبیقی ​​جهانی شماست.
-    -   مثلا`https://vless.trauma.workers.dev/auto?sub`فرمت اشتراک Base64، مناسب برای PassWall، SSR+ و غیره.
+    -   For example `https://vless.trauma.workers.dev/auto?sub`فرمت اشتراک Base64، مناسب برای PassWall، SSR+ و غیره.
     -   مثلا`https://vless.trauma.workers.dev/auto?clash`فرمت اشتراک کلش، مناسب برای OpenClash و غیره.
     -   مثلا`https://vless.trauma.workers.dev/auto?sb`فرمت اشتراک singbox، مناسب برای singbox و غیره.
 
@@ -83,7 +83,7 @@
      [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK```
     ````
 
-3.  دسترسی به محتوای اشتراک:
+3.  Access subscription content:
     -   دسترسی داشته باشید`https://[YOUR-PAGES-URL]/[password]`محتوای اشتراک در دسترس است.
     -   مثلا`https://trauma.pages.dev/auto`این آدرس اشتراک تطبیقی ​​جهانی شماست.
     -   مثلا`https://trauma.pages.dev/auto?sub`فرمت اشتراک Base64، مناسب برای PassWall، SSR+ و غیره.
