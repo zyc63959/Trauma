@@ -1,7 +1,7 @@
 # Deploy Trojan using a Serverless CF-Workers & Pages
 
-
-🇮🇷 [Persian](README-fa.md) | 🇹🇷 [Turkish](README.tr.md) | 🇬🇧  [English](README.md)  
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+🇮🇷 [Persian](README-fa.md) | 🇹🇷 [Turkish](README.tr.md) | 🇬🇧  [English](README.md)  ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
 
@@ -9,7 +9,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 [Telegram Channel](https://t.me/F_NiREvil)
 
-
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Table of Contents
   - [Workers deployment method](#Workers-deployment-method)
@@ -22,7 +22,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 <details>
 <summary> Use </summary>
 
-  - `This project is designed and developed for learning, research and safety testing purposes only. It aims to provide security researchers, academics and technology enthusiasts with a tool to understand and practice network communication technology.`
+  - This project is designed and developed for learning, research and safety testing purposes only. It aims to provide security researchers, academics and technology enthusiasts with a tool to understand and practice network communication technology.
 </details>
 
 <details>
@@ -35,10 +35,11 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 
 <details>
-## <summary> Risk warning </summary>
+<summary> Risk warning </summary>
   - Avoid leaking node configuration information by submitting false node configurations to the subscription service 
 </details>
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 ## Workers deployment method
 
 1.  Deploy Cloudflare Worker:
@@ -66,9 +67,10 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
     - For example `https://vless.trauma.workers.dev/auto?sb` singbox subscription format, suitable for singbox, etc.
 
 4.  Bind a custom domain to workers:
-    - In the workers console `trigger` tab, click below `Add a custom domain`。
-    - Fill in the secondary domain name that you have transferred to the CloudFlare domain name resolution service, for example: `vless.trauma.com` After click `Add a custom domain`, just wait for the certificate to take effect.
+    - In the workers console `trigger` tab, click below `Add a custom domain` 。
+    - Fill in the secondary domain name that you have transferred to the CloudFlare domain name resolution service, for example: `vless.trauma.com` After click `Add a custom domain` , just wait for the certificate to take effect.
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 ## Pages deployment method
 
 1.  Deploy Cloudflare Pages:
@@ -78,7 +80,6 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
      - Fill in the variable name **PASSWORD** , the value is your password, then click `Save and deploy` That’s it.
 
 2.  Add preferred route:
-
   - Add variables `ADD` Local static preferred line, if there is no port number, the default TLS port is 443, and the # number is followed by a remark alias, for example:
        ```js
         discord.com#You can just put the domain name as follows
@@ -87,7 +88,8 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
         zula.ir#Ni3
         www.visa.com.sg:2053#Ni4
         104.17.152.41#IP Also available
-        [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK```
+        [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
+       ```
 
 3.  Access subscription content:
     - access `https://[YOUR-PAGES-URL]/[password]` Subscription content is available.
@@ -106,9 +108,9 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 ## ProxyIP
 
-1. When deploy in cloudflare pages, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `PROXYIP`.
+1. When deploy in cloudflare pages, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `PROXYIP`
 
-2. When deploy in worker.dev, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `proxyIP`.
+2. When deploy in worker.dev, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `proxyIP`
 
 ### How to find proxyIP 
 
@@ -119,7 +121,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 ## Environment variables description
 
 > [!NOTE]
-> Only set two of them is sufficient, the first variable `PASSWORD` and the second `PROXYIP`, variables listed in the table below are only for educational purposes and additional explanations. 
+> Only set two of them is sufficient, the first variable `PASSWORD` and the second `PROXYIP` , variables listed in the table below are only for educational purposes and additional explanations. 
 
 
 
@@ -137,7 +139,6 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | subapi        | apiurl.v1.mk                                                                                                                                   | clash, singbox, etc. subscription conversion backend                                                                                            |
 | SUBCONFIG     | [https://raw.github.../ACL4SSR_Online_Mini.ini](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini) | clash, singbox, etc. Subscription conversion profiles                                                                                           |
 | SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                                                                               |
-| RPROXYIP      | true                                                                                                                                          | Set to true to force the acquisition of the ProxyIP assigned by the subscriber (requires subscriber support)                                    |
 | 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
 | URL           | <https://t.me/F_NiREvil>                                                                                                                       | Homepage disguise (supports multiple URLs, used between URLs)`,`Or use line breaks as intervals, random settings can easily trigger anti-fraud) |
 
