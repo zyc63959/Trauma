@@ -1,13 +1,17 @@
 # Deploy Trojan using a Serverless CF-Workers & Pages
 
+
+🇮🇷 [Persian](README.fa.md) | 🇹🇷 [Turkish](README.tr.md)  
+
+🇬🇧  [English](README.md) |  [🇩🇪 Germany](README.de.md)  
+
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-🇮🇷 [Persian](README.fa.md) | 🇹🇷 [Turkish](README.tr.md) | 🇬🇧  [English](README.md)  ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
 
 This is a script based on the Cloudflare Worker platform. Based on the original version, it is modified to display Trojan configuration information and convert it into subscription content. Using this script, you can easily convert Trojan configuration information to tools such as Clash or Singbox using online configuration.
 
-[Telegram Channel](https://t.me/F_NiREvil)
+[TG Channel](https://t.me/F_NiREvil)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
