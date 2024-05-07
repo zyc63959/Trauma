@@ -1,18 +1,18 @@
-# Trojan'ı Sunucusuz CF Çalışanları ve Sayfaları kullanarak dağıtın
+# Sunucusuz CF Çalışanları ve Sayfaları kullanarak Truva Atı'nı dağıtın
 
-🇮🇷[Farsça](README.fa.md)| 🇹🇷[Turkish](README.tr.md)
+🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
 
 🇬🇧[İngilizce](README.md)\|[🇩🇪 Almanya](README.de.md)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-This is a script based on the Cloudflare Worker platform. Based on the original version, it is modified to display Trojan configuration information and convert it into subscription content. Using this script, you can easily convert Trojan configuration information to tools such as Clash or Singbox using online configuration.
+Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal sürüme dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
 
 [TG Kanalı](https://t.me/F_NiREvil)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-## Table of Contents
+## İçindekiler
 
 -   [İşçi dağıtım yöntemi](#Workers-deployment-method)
 -   [Sayfa dağıtım yöntemi](#Pages-deployment-method)
@@ -22,7 +22,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 <details>
 <summary> Use </summary>
 
--   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlama ve uygulama konusunda bir araç sağlamayı amaçlamaktadır.
+-   Bu proje yalnızca öğrenme, araştırma ve güvenlik testi amacıyla tasarlanmış ve geliştirilmiştir. Güvenlik araştırmacılarına, akademisyenlere ve teknoloji meraklılarına ağ iletişim teknolojisini anlamak ve uygulamak için bir araç sağlamayı amaçlamaktadır.
     </details>
 
 <details>
@@ -48,7 +48,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
     -   İrade[işçi.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js)İçeriği Worker düzenleyicisine yapıştırın.
 
-    -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
+    -   Change line 3 `password`Kendinize göre değiştirin**şifre**
 
     -   Alternatif olarak, doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
 
@@ -110,16 +110,16 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Proxy IP
 
-1.  Cloudflare sayfalarında dağıtım yaparken proxyIP'yi`_worker.js`dosya. veya ortam değişkenini ayarlayın, değişken adı`PROXYIP`
+1.  Cloudflare sayfalarında dağıtım yaparken proxyIP'yi 4. satırda ayarlayabilirsiniz.`_worker.js`dosya. veya ortam değişkenini ayarlayın, değişken adı`PROXYIP`
 
-2.  Worker.dev'de dağıtım yaparken proxyIP'yi`_worker.js`dosya. veya ortam değişkenini ayarlayın, değişken adı`proxyIP`
+2.  Worker.dev'de dağıtım yaparken proxyIP'yi 4. satırda ayarlayabilirsiniz.`_worker.js`dosya. veya ortam değişkenini ayarlayın, değişken adı`proxyIP`
 
 ### ProxyIP nasıl bulunur?
 
@@ -131,9 +131,9 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 > [!NOT]Bunlardan sadece ikisini ayarlamak yeterli, ilk değişken`PASSWORD`ve ikinci`PROXYIP`, aşağıdaki tabloda listelenen değişkenler yalnızca eğitim amaçlıdır ve ek açıklamalar içindir.
 
-| variable name    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
+| değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ŞİFRE            | Oto                                                                                                                                            | Her değeri alabilir                                                                                                                                                                            |
+| ŞİFRE            | Oto                                                                                                                                            | Her türlü değeri alabilir                                                                                                                                                                      |
 | PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | CloudFlareCDN sitesine erişmek için bir proxy düğümü olarak (ProxyIP'ler arasında kullanılan birden fazla ProxyIP'yi destekler)`,`veya aralık olarak satır besleme)                            |
 | EKLEMEK          | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                                                                               |
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
