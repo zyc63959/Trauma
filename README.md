@@ -150,14 +150,19 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
 | URL           | <https://t.me/F_NiREvil>                                                                                                                       | Homepage disguise (supports multiple URLs, used between URLs)`,`Or use line breaks as intervals, random settings can easily trigger anti-fraud) |
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Video tutorials 
-
 
 https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8
 
 
+https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc
 
+
+
+
+https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5
 
 
 
