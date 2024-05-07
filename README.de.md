@@ -12,7 +12,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-## Inhaltsverzeichnis
+## Table of Contents
 
 -   [Methode zur Bereitstellung von Arbeitskräften](#Workers-deployment-method)
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
@@ -55,7 +55,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
 2.  Bevorzugte Route hinzufügen:
-    -   Give `addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
+    -   Geben`addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
         ```js
         let addresses = [
         	// Everything you want, Cloudflare Domains & Clean IP addresses.
@@ -84,7 +84,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 1.  Stellen Sie Cloudflare-Seiten bereit:
     -   Gabel[dieses Projekt auf Github](https://github.com/NiREvil/Trauma/fork)
     -   Wählen Sie in der Cloudflare Pages-Konsole aus`Connected to Git`Danach wählen Sie aus`trauma`Klicken Sie hinter dem Element`Start setting up`。
-    -   existieren`Setting up build and deployment`Wählen Sie unten auf der Seite aus`Environment variables (advanced)`später zusammenführen[Variablen hinzufügen](#Variable-description),
+    -   existieren`Setting up build and deployment`Wählen Sie unten auf der Seite aus`Environment variables (advanced)`später zusammenführen[Variablen hinzufügen](#Environment-variables-description),
     -   Geben Sie den Variablennamen ein**PASSWORT**, der Wert ist Ihr Passwort, dann klicken Sie`Save and deploy`Das ist es.
 
 2.  Bevorzugte Route hinzufügen:
