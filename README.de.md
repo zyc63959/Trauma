@@ -16,7 +16,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 -   [Methode zur Bereitstellung von Arbeitskräften](#Workers-deployment-method)
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
--   [proxyIP](#proxyIP)
+-   [ProxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
 
 <details>
@@ -106,7 +106,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     -   Zum Beispiel`https://trauma.pages.dev/auto?clash`Clash-Abonnementformat, geeignet für OpenClash usw.
     -   Zum Beispiel`https://trauma.pages.dev/auto?sb`Singbox-Abonnementformat, geeignet für Singbox usw.
 
-4.  Benutzerdefinierte CNAME-Domäne an Seiten binden:
+4.  Bind CNAME custom domain to Pages:
     -   In der Pages-Konsole`Custom domains`Klicken Sie auf die Registerkarte unten`Set up a custom domain`.
     -   Geben Sie Ihren benutzerdefinierten sekundären Domänennamen ein. Achten Sie darauf, nicht Ihren Stammdomänennamen zu verwenden, zum Beispiel:
     -   Der Ihnen zugewiesene Domainname lautet`fuck.cloudns.biz`und fügen Sie dann ein benutzerdefiniertes Feld zum Ausfüllen hinzu`iran.fuck.cloudns.biz`Das ist es;
@@ -147,9 +147,15 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 | 02             | <https://t.me/F_NiREvil>                                                                                                                       | Startseite 302-Sprung (unterstützt mehrere URLs, wird zwischen URLs verwendet)`,`Oder Zeilenumbruch als Abstandshalter, verwenden Sie ihn nicht, wenn Sie damit noch nicht vertraut sind.)                 |
 | URL            | <https://t.me/F_NiREvil>                                                                                                                       | Homepage-Verkleidung (unterstützt mehrere URLs, die zwischen URLs verwendet werden)`,`Oder verwenden Sie Zeilenumbrüche als Intervalle, zufällige Einstellungen können leicht Betrugsbekämpfung auslösen.) |
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 ## Videoanleitungen
 
 <https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
+
+<https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc>
+
+<https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5>
 
 # dankbar
 
