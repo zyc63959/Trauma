@@ -54,7 +54,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
-2.  Tercih edilen rotayı ekle:
+2.  Add preferred route:
     -   Vermek`addresses`Tercih edilen alan adını/tercih edilen temiz IP'yi formata göre ekleyin. Bağlantı noktası numarası yoksa varsayılan TLS bağlantı noktası 443'tür ve # işareti açıklama takma adıdır, örneğin:
         ```js
         let addresses = [
@@ -67,7 +67,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
         ```
 
 3.  Abonelik içeriğine erişin:
-    -   erişim`https://[YOUR-WORKERS-URL]/[password]`Abonelik içeriğini alın.
+    -   access `https://[YOUR-WORKERS-URL]/[password]`Abonelik içeriğini alın.
     -   Örneğin`https://vless.trauma.workers.dev/auto`Bu sizin evrensel uyarlanabilir abonelik adresinizdir.
     -   Örneğin`https://vless.trauma.workers.dev/auto?sub`Base64 abonelik formatı; PassWall, SSR+ vb. için uygundur.
     -   Örneğin`https://vless.trauma.workers.dev/auto?clash`OpenClash vb. için uygun Clash abonelik formatı.
@@ -84,7 +84,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 1.  Cloudflare Sayfalarını Dağıtın:
     -   Çatal[Github'daki bu proje](https://github.com/NiREvil/Trauma/fork)
     -   Cloudflare Sayfaları konsolunda seçin`Connected to Git`Bundan sonra seçin`trauma`Öğeden sonra tıklayın`Start setting up`。
-    -   var olmak`Setting up build and deployment`Sayfanın alt kısmında`Environment variables (advanced)`daha sonra birleştir[Değişken ekle](#Variable-description),
+    -   var olmak`Setting up build and deployment`Sayfanın alt kısmında`Environment variables (advanced)`daha sonra birleştir[Değişken ekle](#Environment-variables-description),
     -   Değişken adını girin**ŞİFRE**, değer şifrenizdir, ardından tıklayın`Save and deploy`Bu kadar.
 
 2.  Tercih edilen rotayı ekle:
@@ -134,7 +134,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 | değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ŞİFRE            | Oto                                                                                                                                            | Her türlü değeri alabilir                                                                                                                                                                      |
-| PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | CloudFlareCDN sitesine erişmek için bir proxy düğümü olarak (ProxyIP'ler arasında kullanılan birden fazla ProxyIP'yi destekler)`,`veya aralık olarak satır besleme)                            |
+| PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | As a proxy node to access the CloudFlareCDN site (supports multiple ProxyIPs, used between ProxyIPs`,`veya aralık olarak satır besleme)                                                        |
 | EKLEMEK          | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                                                                               |
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
 | ADCCSV           |                                                                                                                                                | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
