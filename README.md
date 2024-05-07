@@ -81,14 +81,14 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 ## Pages deployment method
 
-1.  Deploy Cloudflare Pages:
+1. Deploy Cloudflare Pages:
     - Fork [this project on Github](https://github.com/NiREvil/Trauma/fork)
     - Select in the Cloudflare Pages console `Connected to Git` After that, select `trauma` Click after the item `Start setting up`。
     - exist `Setting up build and deployment` At the bottom of the page, select `Environment variables (advanced)` merge later [Add variables](#Environment-variables-description),
      - Fill in the variable name **PASSWORD** , the value is your password, then click `Save and deploy` That’s it.
-
-2.  Add preferred route:
-  - Add variables `ADD` Local static preferred line, if there is no port number, the default TLS port is 443, and the # number is followed by a remark alias, for example:
+  
+2. Add preferred route:
+   - Add variables `ADD` Local static preferred line, if there is no port number, the default TLS port is 443, and the # number is followed by a remark alias, for example:
        ```js
         discord.com#You can just put the domain name as follows
         www.speedtest.net:443#Ni1
@@ -99,14 +99,14 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
         [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
        ```
 
-3.  Access subscription content:
+3. Access subscription content:
     - access `https://[YOUR-PAGES-URL]/[password]` Subscription content is available.
     - For example `https://trauma.pages.dev/auto` This is your universal adaptive subscription address.
     - For example `https://trauma.pages.dev/auto?sub` Base64 subscription format, suitable for PassWall, SSR+, etc.
     - For example `https://trauma.pages.dev/auto?clash` Clash subscription format, suitable for OpenClash, etc.
     - For example `https://trauma.pages.dev/auto?sb` singbox subscription format, suitable for singbox, etc.
 
-4.  Bind CNAME custom domain to Pages:
+4. Bind CNAME custom domain to Pages:
     - In the Pages console `Custom domains` tab, click below `Set up a custom domain`.
     - Fill in your custom secondary domain name, be careful not to use your root domain name, for example:
     - The domain name you are assigned is `fuck.cloudns.biz`, then add a custom field to fill in `iran.fuck.cloudns.biz` That’s it;
@@ -136,7 +136,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | variable name | Example                                                                                                                                        | Remark                                                                                                                                          |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | PASSWORD      | auto                                                                                                                                           | Can take any value                                                                                                                              |
-| PROXYIP       | [click here](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md) Or Use `ni.radically.pro`                                                                                                                         | As a proxy node to access the CloudFlareCDN site (supports multiple ProxyIPs, used between ProxyIPs`,`or line feed as interval)                 |
+| PROXYIP       | [click here](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md) or Use `ni.radically.pro`                                                                                                                         | As a proxy node to access the CloudFlareCDN site (supports multiple ProxyIPs, used between ProxyIPs`,`or line feed as interval)                 |
 | ADD           | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                | Local preferred domain name/preferred IP (supports multiple elements`,`or line feed as interval)                                                |
 | ADDAPI        | https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt                                                                                                                                               | No need to explain, everyone understands                                                                                                        |
 | ADDCSV        |                                                                                                                                                | No need to explain, everyone understands                                                                                                        |
@@ -149,6 +149,16 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                                                                               |
 | 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
 | URL           | <https://t.me/F_NiREvil>                                                                                                                       | Homepage disguise (supports multiple URLs, used between URLs)`,`Or use line breaks as intervals, random settings can easily trigger anti-fraud) |
+
+
+## Video tutorials 
+
+
+https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8
+
+
+
+
 
 
 # grateful
