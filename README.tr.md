@@ -1,10 +1,14 @@
 # Sunucusuz CF Çalışanları ve Sayfaları kullanarak Truva Atı'nı dağıtın
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)| 🇬🇧[İngilizce](README.md)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+🇮🇷[Farsça](README.fa.md)| 🇹🇷[Türkçe](README.tr.md)
 
-Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal sürüme dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
+🇬🇧[İngilizce](README.md)\|[🇩🇪 Almanya](README.de.md)
 
-[Telgraf Kanalı](https://t.me/F_NiREvil)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
+Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal versiyona dayanarak, Truva atı yapılandırma bilgilerini görüntüleyecek ve bunu abonelik içeriğine dönüştürecek şekilde değiştirildi. Bu betiği kullanarak Truva atı yapılandırma bilgilerini çevrimiçi yapılandırmayı kullanarak Clash veya Singbox gibi araçlara kolayca dönüştürebilirsiniz.
+
+[TG Kanalı](https://t.me/F_NiREvil)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
@@ -44,7 +48,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
     -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
 
 2.  Tercih edilen rotayı ekle:
-    -   Vermek`addresses`Tercih edilen alan adını/tercih edilen temiz IP'yi formata göre ekleyin. Bağlantı noktası numarası yoksa varsayılan TLS bağlantı noktası 443'tür ve # işareti açıklama takma adıdır, örneğin:
+    -   Give `addresses`Tercih edilen alan adını/tercih edilen temiz IP'yi formata göre ekleyin. Bağlantı noktası numarası yoksa varsayılan TLS bağlantı noktası 443'tür ve # işareti açıklama takma adıdır, örneğin:
         ```js
         let addresses = [
         	// Everything you want, Cloudflare Domains & Clean IP addresses.
@@ -122,7 +126,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal s�
 
 | değişken ismi    | Örnek                                                                                                                                          | Açıklama                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ŞİFRE            | Oto                                                                                                                                            | Her türlü değeri alabilir                                                                                                                                                                      |
+| ŞİFRE            | Oto                                                                                                                                            | Her değeri alabilir                                                                                                                                                                            |
 | PROXY IP         | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Veya kullan`ni.radically.pro`                                      | CloudFlareCDN sitesine erişmek için bir proxy düğümü olarak (ProxyIP'ler arasında kullanılan birden fazla ProxyIP'yi destekler)`,`veya aralık olarak satır besleme)                            |
 | EKLEMEK          | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                                                                               |
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
