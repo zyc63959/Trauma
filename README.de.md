@@ -14,7 +14,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ## Inhaltsverzeichnis
 
--   [Methode zur Bereitstellung von Arbeitskräften](#Workers-deployment-method)
+-   [Workers deployment method](#Workers-deployment-method)
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
 -   [ProxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
