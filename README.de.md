@@ -43,9 +43,16 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 ## Methode zur Bereitstellung von Arbeitskräften
 
 1.  Stellen Sie Cloudflare Worker bereit:
+
     -   Erstellen Sie einen neuen Worker in der Cloudflare Worker-Konsole.
+
     -   Wille[worker.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js)Fügen Sie den Inhalt in den Worker-Editor ein.
+
     -   Ändern Sie Zeile 3`password`Ändern Sie es in Ihr eigenes**Passwort**
+
+    -   Alternativ können Sie auf die Schaltfläche unten klicken, um die Bereitstellung direkt durchzuführen.
+
+    [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
 2.  Bevorzugte Route hinzufügen:
     -   Geben`addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
