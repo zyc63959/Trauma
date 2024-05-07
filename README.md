@@ -5,22 +5,21 @@
 
 🇬🇧  [English](README.md) |  [🇩🇪 Germany](README.de.md)  
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
 
-This is a script based on the Cloudflare Worker platform. Based on the original version, it is modified to display Trojan configuration information and convert it into subscription content. Using this script, you can easily convert Trojan configuration information to tools such as Clash or Singbox using online configuration.
+This is a script based on the Cloudflare Worker platform. Based on the original version, it is modified to display Trojan configuration information and convert it into subscription content. Using this script, you can easily convert Trojan configuration information to tools such as Clash or Singbox using online configuration.  
 
 [TG Channel](https://t.me/F_NiREvil)
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-
 ## Table of Contents
   - [Workers deployment method](#Workers-deployment-method)
   - [Pages deployment method](#Pages-deployment-method)
   - [proxyIP](#proxyIP)
   - [Environment Variable description](#Environment-variables-description)
-
+  - [Video tutorials](#Video-tutorials)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
 <details>
@@ -43,7 +42,8 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
   - Avoid leaking node configuration information by submitting false node configurations to the subscription service 
 </details>
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
+
 ## Workers deployment method
 
 1.  Deploy Cloudflare Worker:
@@ -124,13 +124,13 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 [(SOURCE)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
 
 ## Environment variables description
 
 > [!NOTE]
 > Only set two of them is sufficient, the first variable `PASSWORD` and the second `PROXYIP` , variables listed in the table below are only for educational purposes and additional explanations. 
-
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
 | variable name | Example                                                                                                                                        | Remark                                                                                                                                          |
@@ -149,23 +149,47 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                                                                               |
 | 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
 | URL           | <https://t.me/F_NiREvil>                                                                                                                       | Homepage disguise (supports multiple URLs, used between URLs)`,`Or use line breaks as intervals, random settings can easily trigger anti-fraud) |
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+
+  
 
 ## Video tutorials 
 
 https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
+
+
+  
 https://github.com/NiREvil/Trauma/assets/126243832/f20a0215-bd75-4302-89dd-90a5bdd75cbc
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
+
 
 
 
 
 https://github.com/NiREvil/Trauma/assets/126243832/f63c74c9-0e86-40a2-8894-e027c06776f5
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
+
+
+  
+
+
+https://github.com/NiREvil/Trauma/assets/126243832/61ce0b14-2c26-4325-a6c0-6f12cfc608d7
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
+
+
+
 
 
 # grateful
 
-[ca110us](https://github.com/ca110us/epeius)、[Sterilize it](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)、[zizifn](https://github.com/zizifn/edgetunnel)、[Yemen 178](https://github.com/emn178/js-sha256)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[Shegs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、
+[ca110us](https://github.com/ca110us/epeius)  |  [Sterilize it](https://github.com/3Kmfi6HP/EDtunnel/tree/trojan)  |  [zizifn](https://github.com/zizifn/edgetunnel)  | 
+ [Yemen 178](https://github.com/emn178/js-sha256)  |  [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)  |  [Shegs1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)
+
+ ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
