@@ -116,9 +116,9 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 ## ProxyIP
 
-1. When deploy in cloudflare pages, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `PROXYIP`
+1. When deploy in cloudflare pages, you can set proxyIP in 4th line of `_worker.js` file. or set environment variable, variable name is `PROXYIP`
 
-2. When deploy in worker.dev, you can set proxyIP in `_worker.js` file. or set environment variable, variable name is `proxyIP`
+2. When deploy in worker.dev, you can set proxyIP in 4th line of `_worker.js` file. or set environment variable, variable name is `proxyIP`
 
 ### How to find proxyIP 
 
