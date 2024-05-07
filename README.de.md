@@ -12,11 +12,11 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-## Table of Contents
+## Inhaltsverzeichnis
 
 -   [Methode zur Bereitstellung von Arbeitskräften](#Workers-deployment-method)
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
--   [ProxyIP](#proxyIP)
+-   [proxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
 
 <details>
@@ -88,17 +88,16 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     -   Geben Sie den Variablennamen ein**PASSWORT**, der Wert ist Ihr Passwort, dann klicken Sie`Save and deploy`Das ist es.
 
 2.  Bevorzugte Route hinzufügen:
-
--   Variablen hinzufügen`ADD`Lokale statische bevorzugte Leitung. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und auf die #-Nummer folgt ein Bemerkungsalias, zum Beispiel:
-    ```js
-     discord.com#You can just put the domain name as follows
-     www.speedtest.net:443#Ni1
-     time.is#Ni2
-     zula.ir#Ni3
-     www.visa.com.sg:2053#Ni4
-     104.17.152.41#IP Also available
-     [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
-    ```
+    -   Variablen hinzufügen`ADD`Lokale statische bevorzugte Leitung. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und auf die #-Nummer folgt ein Bemerkungsalias, zum Beispiel:
+        ```js
+         discord.com#You can just put the domain name as follows
+         www.speedtest.net:443#Ni1
+         time.is#Ni2
+         zula.ir#Ni3
+         www.visa.com.sg:2053#Ni4
+         104.17.152.41#IP Also available
+         [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
+        ```
 
 3.  Zugriff auf Abonnementinhalte:
     -   Zugang`https://[YOUR-PAGES-URL]/[password]`Abonnementinhalte sind verfügbar.
@@ -134,7 +133,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 | Variablennamen | Beispiel                                                                                                                                       | Anmerkung                                                                                                                                                                                                  |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | PASSWORT       | Auto                                                                                                                                           | Kann jeden Wert annehmen                                                                                                                                                                                   |
-| PROXYIP        | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)Oder verwenden`ni.radically.pro`                                  | Als Proxy-Knoten für den Zugriff auf die CloudFlareCDN-Site (unterstützt mehrere ProxyIPs, die zwischen ProxyIPs verwendet werden).`,`oder Zeilenvorschub als Intervall)                                   |
+| PROXYIP        | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)oder Verwendung`ni.radically.pro`                                 | Als Proxy-Knoten für den Zugriff auf die CloudFlareCDN-Site (unterstützt mehrere ProxyIPs, die zwischen ProxyIPs verwendet werden).`,`oder Zeilenvorschub als Intervall)                                   |
 | HINZUFÜGEN     | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                  | Lokaler bevorzugter Domänenname/bevorzugte IP (unterstützt mehrere Elemente`,`oder Zeilenvorschub als Intervall)                                                                                           |
 | ADDAPI         | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Kein Grund zur Erklärung, jeder versteht es                                                                                                                                                                |
 | ADDCSV         |                                                                                                                                                | Kein Grund zur Erklärung, jeder versteht es                                                                                                                                                                |
@@ -147,6 +146,10 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 | UNTERNAME      | REvil                                                                                                                                          | Abonnementname                                                                                                                                                                                             |
 | 02             | <https://t.me/F_NiREvil>                                                                                                                       | Startseite 302-Sprung (unterstützt mehrere URLs, wird zwischen URLs verwendet)`,`Oder Zeilenumbruch als Abstandshalter, verwenden Sie ihn nicht, wenn Sie damit noch nicht vertraut sind.)                 |
 | URL            | <https://t.me/F_NiREvil>                                                                                                                       | Homepage-Verkleidung (unterstützt mehrere URLs, die zwischen URLs verwendet werden)`,`Oder verwenden Sie Zeilenumbrüche als Intervalle, zufällige Einstellungen können leicht Betrugsbekämpfung auslösen.) |
+
+## Videoanleitungen
+
+<https://github.com/NiREvil/Trauma/assets/126243832/92a430c3-4884-4831-bf8c-e328cfd78af8>
 
 # dankbar
 
