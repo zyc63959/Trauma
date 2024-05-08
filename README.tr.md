@@ -47,7 +47,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
     -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
 
-    -   Alternatif olarak, doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
+    -   Alternatif olarak doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
@@ -106,8 +106,8 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
-    -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma` CNAME record of `trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
+    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
@@ -133,7 +133,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 | ADDAPI           | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                           | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
 | ADCCSV           |                                                                                                                                                | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
 | DLS              | 8                                                                                                                                              | Açıklamaya gerek yok herkes anlıyor                                                                                                                                                            |
-| TGTOKEN          | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                 | Robot token for sending TG notifications                                                                                                                                                       |
+| TGTOKEN          | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                 | TG bildirimlerini göndermek için robot belirteci                                                                                                                                               |
 | SİZ YAPIYORSUNUZ | 6946912345                                                                                                                                     | TG bildirimlerini almak için hesap dijital kimliği                                                                                                                                             |
 | ALT              | trojan.fxxk.dedyn.io                                                                                                                           | Tercih edilen abonelik oluşturucu adresi (aboneyi kullanmak,`ADD`içinde yerel premium abonelik içeriği)                                                                                        |
 | subapi           | apiurl.v1.mk                                                                                                                                   | Clash, singbox vb. abonelik dönüşümü arka ucu                                                                                                                                                  |
