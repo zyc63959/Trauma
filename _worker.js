@@ -24,7 +24,7 @@ let addresses = [
 let sub = '';
 let subconverter = 'apiurl.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
-let RproxyIP = 'false';
+let RproxyIP = 'true';
 
 let addressesapi = [];// you can use my addresses api:  [https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt];
 let addressescsv = [];
