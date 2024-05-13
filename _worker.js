@@ -1,24 +1,24 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = '';// 'ni.radically.pro';
+let proxyIP = 'usa.revil.link';// 'ni.radically.pro';
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'arm64-v8a.pages.dev#Ni',
-	'www.speedtest.net:443#Ni1',
-	'time.is#Ni2',
-	'zula.ir#Ni3',
-	'www.visa.com.sg:2053#Ni4',
-	'skk.moe:2083#Ni5',
-	'www.wto.org:8443#Ni6',
-	'www.csgo.com:2087#Ni7',
-	'icook.hk:2053#Ni8',
-	'104.17.152.41:2096#Ni9',
-	'discord.com:8443#Ni10',
-	'creativecommons.org#Ni11',
-	'go.inmobi.com#Ni12',
-	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#NiIPv6',
+	'time.cloudflare.com',
+	'www.speedtest.net:443#1',
+	'time.is#2',
+	'zula.ir#3',
+	'fbi.gov:2053#4',
+	'ip.sb:2083#5',
+	'www.wto.org:8443#6',
+	'csgo.com:2087#7',
+	'icook.hk:2053#8',
+	'www.iakeys.com:2096#9',
+	'discord.com:8443#10',
+	'creativecommons.org#11',
+	'go.inmobi.com#12',
+	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6',
 ];
 
 let sub = '';
