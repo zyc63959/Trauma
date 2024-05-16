@@ -26,7 +26,7 @@ let subconverter = 'url.v1.mk';// Clash subscription conversion backend, current
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
 
-let addressesapi = ['https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt'];// you can use any addresses api's
+let addressesapi = ['https://strawberry.xcs.workers.dev'];// you can use any addresses api's
 let addressescsv = [];
 let DLS = 8;
 
