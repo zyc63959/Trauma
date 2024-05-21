@@ -71,7 +71,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
     -   Örneğin`https://vless.trauma.workers.dev/auto?sb`singbox abonelik formatı, singbox vb. için uygundur.
 
 4.  Çalışanlara özel bir alan adı bağlayın:
-    -   İşçi konsolunda`trigger`sekme, aşağıya tıklayın`Add a custom domain`。
+    -   In the workers console `trigger`sekme, aşağıya tıklayın`Add a custom domain`。
     -   CloudFlare alan adı çözümleme hizmetine aktardığınız ikincil alan adını girin, örneğin:`vless.trauma.com`Tıkladıktan sonra`Add a custom domain`, sertifikanın geçerli olmasını bekleyin.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -100,13 +100,13 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
     -   erişim`https://[YOUR-PAGES-URL]/[password]`Abonelik içeriği mevcuttur.
     -   Örneğin`https://trauma.pages.dev/auto`Bu sizin evrensel uyarlanabilir abonelik adresinizdir.
     -   Örneğin`https://trauma.pages.dev/auto?sub`Base64 abonelik formatı; PassWall, SSR+ vb. için uygundur.
-    -   Örneğin`https://trauma.pages.dev/auto?clash`OpenClash vb. için uygun Clash abonelik formatı.
+    -   For example `https://trauma.pages.dev/auto?clash`OpenClash vb. için uygun Clash abonelik formatı.
     -   Örneğin`https://trauma.pages.dev/auto?sb`singbox abonelik formatı, singbox vb. için uygundur.
 
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   The domain name you are assigned is `fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
@@ -119,7 +119,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
 ### ProxyIP nasıl bulunur?
 
-[(KAYNAK)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
+[(SOURCE)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
 
 ## Ortam değişkenleri açıklaması
 
