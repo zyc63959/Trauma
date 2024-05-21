@@ -5,19 +5,16 @@ let proxyIP = 'usa.revil.link';// 'ni.radically.pro';
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'time.cloudflare.com',
-	'www.speedtest.net:443#1',
-	'time.is#2',
-	'zula.ir#3',
-	'fbi.gov:2053#4',
-	'ip.sb:2083#5',
-	'www.wto.org:8443#6',
-	'csgo.com:2087#7',
-	'icook.hk:2053#8',
-	'www.iakeys.com:2096#9',
-	'discord.com:8443#10',
-	'creativecommons.org#11',
-	'go.inmobi.com#12',
+	'sky.rethinkdns.com#CFW-1',
+	'sky.rethinkdns.com:2053#CFW-2',
+	'icook.hk:2083#CFW-3',
+	'icook.hk:2087#CFW-4',
+	'go.inmobi.com:2096#CFW-5',
+	'creativecommons.org:443#CFW-6',
+	'188.114.96.3:8443#CFW-7',
+	'188.114.96.6:2083#CFW-8',
+	'188.114.97.3:2087#CFW-9',
+	'188.114.97.6:2096#CFW-10',
 	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6',
 ];
 
