@@ -123,7 +123,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ## Beschreibung der Umgebungsvariablen
 
-> [!NOTE]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+> [!NOTIZ]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 | Variablennamen | Beispiel                                                                                                                                       | Anmerkung                                                                                                                                                                                                  |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
