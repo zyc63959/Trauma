@@ -4,26 +4,27 @@
 188.114.97.6:2096# ꓃ Trauma -4
 icook.hk:443# ꓃ Trauma -5
 www.speedtest.net# ꓃ Trauma -6 
-sky.rethinkdns.com:2053# ꓃ Trauma -7
-sky.rethinkdns.com#Mahsa ꓃ Trauma -8
-icook.hk:8443# ꓃ Trauma -9
-104.18.216.205:2087# ꓃ Trauma -10
-Sadtunnel.pages.dev:443# ꓃ Trauma -11
-Nightmare.xcs.workers.DEV# ꓃ Trauma -12
-Horsefucker.pages.dev:2096# ꓃ Trauma -13
-SOMEONE-who-CARES.pages.DEV# ꓃ Trauma -14
-SOMEONE-who-doesnt-CARE.pages.DEV# ꓃ Trauma -15
-172.67.164.37#TSA-1
-104.21.216.26:443#TSA-2
-172.67.192.211:8443#TSA-3
-104.20.75.31:2053#TSA-4
-104.20.65.237:2083#TSA-5
-172.67.131.36:2087#TSA-6
-172.67.49.246:2096#TSA-7
-104.21.102.95:8443#TSA-8
-104.20.210.158#TSA-9
-104.20.123.3:443#TSA-10
-23.227.39.107:2053#TSA-11
-104.17.150.39:2083#TSA-12
-190.93.244.18:2087#TSA-13
-104.17.111.38:2096#TSA-14
+sky.rethinkdns.com# ꓃ Trauma -7
+ibrahim.local-host.workers.dev:2053# ꓃ Trauma -8
+oooof.pages.dev:8443# ꓃ Trauma -9
+hello-world.local-host.workers.dev:2087# ꓃ Trauma -10
+ya-abalfazzzzz.pages.dev:443# ꓃ Trauma -11
+ifuckyou.underwater.workers.dev# ꓃ Trauma -12
+wefuckyou.underwater.workers.dev:2096# ꓃ Trauma -13
+horsefucker.pages.dev# ꓃ Trauma -14
+holyfuck.xcdi.workers.dev# ꓃ Trauma -15
+cdnjs.com:8443# ꓃ Trauma -16
+172.67.164.37# ꓃ TSA -1
+104.21.216.26:443# ꓃ TSA -2
+172.67.192.211:8443# ꓃ TSA -3
+104.20.75.31:2053# ꓃ TSA -4
+104.20.65.237:2083# ꓃ TSA -5
+172.67.131.36:2087# ꓃ TSA -6
+172.67.49.246:2096# ꓃ TSA -7
+104.21.102.95:8443# ꓃ TSA -8
+104.20.210.158# ꓃ TSA -9
+104.20.123.3:443# ꓃ TSA -10
+23.227.39.107:2053# ꓃ TSA -11
+104.17.150.39:2083# ꓃ TSA -12
+190.93.244.18:2087# ꓃ TSA -13
+104.17.111.38:2096# ꓃ TSA -14
