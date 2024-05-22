@@ -5,17 +5,17 @@ let proxyIP = '';// ['usa.revil.link', 'ni.radically.pro'];
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'sky.rethinkdns.com#CFW-1',
-	'sky.rethinkdns.com:2053#CFW-2',
-	'icook.hk:2083#CFW-3',
-	'icook.hk:2087#CFW-4',
-	'go.inmobi.com:2096#CFW-5',
-	'creativecommons.org:443#CFW-6',
-	'188.114.96.3:8443#CFW-7',
-	'188.114.96.6:2083#CFW-8',
-	'188.114.97.3:2087#CFW-9',
-	'188.114.97.6:2096#CFW-10',
-	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6',
+	'sky.rethinkdns.com# ꓃ Tr -1',
+	'sky.rethinkdns.com:2053# ꓃ Tr -2',
+	'icook.hk:2083# ꓃ Tr -3',
+	'icook.hk:2087# ꓃ Tr -4',
+	'go.inmobi.com:2096# ꓃ Tr -5',
+	'creativecommons.org:443# ꓃ Tr -6',
+	'188.114.96.3:8443# ꓃ Tr -7',
+	'188.114.96.6:2083# ꓃ Tr -8',
+	'188.114.97.3:2087# ꓃ Tr -9',
+	'188.114.97.6:2096# ꓃ Tr -10',
+	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]# ꓃IPv6',
 ];
 
 let sub = '';
