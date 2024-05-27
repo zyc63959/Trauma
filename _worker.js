@@ -1,21 +1,20 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = '';// ['usa.revil.link', 'ni.radically.pro'];
+let proxyIP = ['ni.radically.pro'];// Or use 'usa.revil.link'
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'sky.rethinkdns.com# ꓃ Tr -1',
-	'sky.rethinkdns.com:2053# ꓃ Tr -2',
-	'icook.hk:2083# ꓃ Tr -3',
-	'icook.hk:2087# ꓃ Tr -4',
-	'go.inmobi.com:2096# ꓃ Tr -5',
-	'creativecommons.org:443# ꓃ Tr -6',
-	'188.114.96.3:8443# ꓃ Tr -7',
-	'188.114.96.6:2083# ꓃ Tr -8',
-	'188.114.97.3:2087# ꓃ Tr -9',
-	'188.114.97.6:2096# ꓃ Tr -10',
-	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]# ꓃IPv6',
+	'icook.hk:2083# ꓃ Tr -1',
+	'cdnjs.com:8443# ꓃ Tr -2',
+	'zula.ir:443# ꓃ Tr -3',
+	'sky.rethinkdns.com:2053# ꓃ Tr -4',
+	'www.speedtest.net:443# ꓃ Tr -5',
+	'time.cloudflare.com:2053# ꓃ Tr -6',
+	'go.inmobi.com:2096# ꓃ Tr -7',
+	'creativecommons.org:2087# ꓃ Tr -8',
+	'horsefucker.pages.dev:8443# ꓃ Tr -9',
+	'holyfuck.xcdi.workers.dev:2083# ꓃ Tr -10',
 ];
 
 let sub = '';
