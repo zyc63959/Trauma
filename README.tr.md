@@ -106,7 +106,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 4.  CNAME özel alan adını Sayfalara bağlayın:
     -   Sayfalar konsolunda`Custom domains`sekme, aşağıya tıklayın`Set up a custom domain`.
     -   Özel ikincil alan adınızı girin, kök alan adınızı kullanmamaya dikkat edin, örneğin:
-    -   Size atanan alan adı`fuck.cloudns.biz`ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
+    -   Size atanan alan adı`fuck.cloudns.biz`, ardından doldurulacak özel bir alan ekleyin`iran.fuck.cloudns.biz`Bu kadar;
     -   Cloudflare gereksinimlerine göre alan adı DNS servis sağlayıcınız iade edilecek ve özel alan adı eklenecektir.`trauma`CNAME kaydı`trauma.pages.dev`Bundan sonra tıklayın`Activate Domain`Bu kadar.
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
