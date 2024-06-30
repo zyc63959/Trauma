@@ -2,7 +2,7 @@
 
 🇮🇷[persisch](README.fa.md)| 🇹🇷[Türkisch](README.tr.md)
 
-🇬🇧[Englisch](README.md)\|[Deutschland](README.de.md)
+🇬🇧[Englisch](README.md)|  🇩🇪[Deutschland](README.de.md)
 
 Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend auf der Originalversion wurde es so modifiziert, dass es Trojaner-Konfigurationsinformationen anzeigt und diese in Abonnementinhalte umwandelt. Mit diesem Skript können Sie mithilfe der Online-Konfiguration problemlos Trojaner-Konfigurationsinformationen in Tools wie Clash oder Singbox konvertieren.
 
@@ -55,16 +55,16 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     -   Geben`addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
         ```js
         let addresses = [
-        	// Everything you want, Cloudflare Domains & Clean IP addresses.
-        	'www.speedtest.net:443#Ni1',
-        	'time.is#Ni2',
-        	'zula.ir#Ni3',
-        	'www.visa.com.sg:2053#Ni4',
+        // Everything you want, Cloudflare Domains & Clean IP addresses.
+        'www.speedtest.net:443#Ni1',
+        'sky.rethinkdns.com#Ni2',
+        'creativecommons.org#Ni3',
+        'time.cloudflare.com:2053#Ni4',
         ];
         ```
 
 3.  Zugriff auf Abonnementinhalte:
-    -   Zugang`https://[YOUR-WORKERS-URL]/[password]`Erhalten Sie Abonnementinhalte.
+    -   Zugang`https://[YOUR-WORKERS-URL]/[password]` Get subscription content.
     -   Zum Beispiel`https://vless.trauma.workers.dev/auto`Dies ist Ihre universelle adaptive Abonnementadresse.
     -   Zum Beispiel`https://vless.trauma.workers.dev/auto?sub`Base64-Abonnementformat, geeignet für PassWall, SSR+ usw.
     -   Zum Beispiel`https://vless.trauma.workers.dev/auto?clash`Clash-Abonnementformat, geeignet für OpenClash usw.
@@ -87,13 +87,14 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 2.  Bevorzugte Route hinzufügen:
     -   Variablen hinzufügen`ADD`Lokale statische bevorzugte Leitung. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und auf die #-Nummer folgt ein Bemerkungsalias, zum Beispiel:
         ```js
-         discord.com#You can just put the domain name as follows
-         www.speedtest.net:443#Ni1
-         time.is#Ni2
-         zula.ir#Ni3
-         www.visa.com.sg:2053#Ni4
-         104.17.152.41#IP Also available
-         [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
+        discord.com#You can just put the domain name as follows
+        www.speedtest.net:443#Ni1
+        speed.cloudflare.com#Ni2
+        zula.ir#Ni3
+        creativecommons.org:2053#Ni4
+        sky.rethinkdns.com#NI5
+        104.17.152.41#IPv4 is available
+        [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#also IPv6
         ```
 
 3.  Zugriff auf Abonnementinhalte:
@@ -125,22 +126,13 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 > [!NOTIZ]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-| Variablennamen | Beispiel                                                                                                                                               | Anmerkung                                                                                                                                                                                                  |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PASSWORT       | Auto                                                                                                                                                   | Kann jeden Wert annehmen                                                                                                                                                                                   |
-| PROXYIP        | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)oder Verwendung`ni.radically.pro`                                         | Als Proxy-Knoten für den Zugriff auf die CloudFlareCDN-Site (unterstützt mehrere ProxyIPs, die zwischen ProxyIPs verwendet werden).`,`oder Zeilenvorschub als Intervall)                                   |
-| HINZUFÜGEN     | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                          | Lokaler bevorzugter Domänenname/bevorzugte IP (unterstützt mehrere Elemente`,`oder Zeilenvorschub als Intervall)                                                                                           |
-| HINZUFÜGEN     | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                                                                   | Kein Grund zur Erklärung, jeder versteht es                                                                                                                                                                |
-| ADDCSV         |                                                                                                                                                        | Kein Grund zur Erklärung, jeder versteht es                                                                                                                                                                |
-| DLS            | 8                                                                                                                                                      | Kein Grund zur Erklärung, jeder versteht es                                                                                                                                                                |
-| TGTOKEN        | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                         | Roboter-Token zum Versenden von TG-Benachrichtigungen                                                                                                                                                      |
-| DU TUST        | 6946912345                                                                                                                                             | Digitale Konto-ID, um TG-Benachrichtigungen zu erhalten                                                                                                                                                    |
-| SUB            | trojan.fxxk.dedyn.io                                                                                                                                   | Bevorzugte Abonnement-Generator-Adresse (mit der der Abonnent aufgibt).`ADD`lokaler Premium-Abonnementinhalt innerhalb von )                                                                               |
-| SUBAPI         | apiurl.v1.mk                                                                                                                                           | Clash, Singbox usw. Abonnementkonvertierungs-Backend                                                                                                                                                       |
-| UNTERKONFIG    | [Https://raw.attraction.../ACL4SSR_Online_Mini.Ich bin](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini) | Clash, Singbox usw. Abonnementkonvertierungsprofile                                                                                                                                                        |
-| UNTERNAME      | REvil                                                                                                                                                  | Abonnementname                                                                                                                                                                                             |
-| 02             | <https://t.me/F_NiREvil>                                                                                                                               | Startseite 302-Sprung (unterstützt mehrere URLs, wird zwischen URLs verwendet)`,`Oder Zeilenumbruch als Abstandshalter, verwenden Sie ihn nicht, wenn Sie damit noch nicht vertraut sind.)                 |
-| URL            | <https://t.me/F_NiREvil>                                                                                                                               | Homepage-Verkleidung (unterstützt mehrere URLs, die zwischen URLs verwendet werden)`,`Oder verwenden Sie Zeilenumbrüche als Intervalle, zufällige Einstellungen können leicht Betrugsbekämpfung auslösen.) |
+| Variablennamen | Beispiel                                                                                                       | Anmerkung                                                                                                                                |   |
+| -------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | - |
+| PASSWORT       | Auto                                                                                                           | Kann jeden Wert annehmen                                                                                                                 |   |
+| PROXYIP        | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)oder Verwendung`ni.radically.pro` | Alternativer Proxy-Knoten für den Zugriff auf CFCDN-Sites (unterstützt mehrere ProxyIPs mit 1 oder 2 Zeilenumbrüchen zwischen ProxyIPs)) |   |
+| HINZUFÜGEN     | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                  | Lokaler bevorzugter Domänenname/bevorzugte IP (unterstützt mehrere Elemente`,`oder Zeilenvorschub als Intervall)                         |   |
+| HINZUFÜGEN     | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                           | Kein Grund zur Erklärung, jeder versteht es                                                                                              |   |
+| UNTERNAME      | REvil                                                                                                          | Abonnementname                                                                                                                           |   |
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
