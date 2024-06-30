@@ -1,24 +1,27 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = ['ni.radically.pro'];// Or use 'usa.revil.link'
+//Find proxyIP : https://github.com/NiREvil/vless/blob/main/sub/ProxyIP.md
+//Find proxyIP : https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/#google
+let proxyIP = ['ni.radically.pro']; // OR use ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'icook.hk:2083#꓃Tr -1',
-	'cdnjs.com:8443#꓃Tr -2',
-	'zula.ir:443#꓃Tr -3',
-	'sky.rethinkdns.com:2053#꓃Tr -4',
-	'www.speedtest.net:443#꓃Tr -5',
-	'time.cloudflare.com:2053#꓃Tr -6',
-	'go.inmobi.com:2096#꓃Tr -7',
-	'creativecommons.org:2087#꓃Tr -8',
-	'horsefucker.pages.dev:8443#꓃Tr -9',
-	'holyfuck.xcdi.workers.dev:2083#꓃Tr -10',
+	'icook.hk:2053#√-1',
+	'cdnjs.com:8443#√-2',
+	'zula.ir:443#√-3',
+	'vista.com:2053#√-4',
+	'speed.cloudflare.com:2083#√-5',
+	'sky.rethinkdns.com:443#√-6',
+	'www.speedtest.net::2087#√-7',
+	'time.cloudflare.com:2053#√-8',
+	'www.csgo.com:2083#√-9',
+	'go.inmobi.com:2053#√-10',
+	'creativecommons.org:443#√-11',
 ];
 
 let sub = '';
-let subconverter = 'url.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
+let subconverter = 'subapi-loadbalancing.pages.dev';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
 
