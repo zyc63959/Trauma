@@ -3,7 +3,7 @@
 
 🇮🇷 [Persian](README.fa.md) | 🇹🇷 [Turkish](README.tr.md)  
 
-🇬🇧  [English](README.md) |  [🇩🇪 Germany](README.de.md)  
+🇬🇧 [English](README.md) |  🇩🇪 [Germany](README.de.md)  
 
 
 
@@ -59,12 +59,12 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
     - Give `addresses` Add the preferred domain name/preferred clean IP according to the format. If there is no port number, the default TLS port is 443, and the # sign is the remark alias, for example:
         ```js
         let addresses = [
-        	// Everything you want, Cloudflare Domains & Clean IP addresses.
-        	'www.speedtest.net:443#Ni1',
-        	'time.is#Ni2',
-        	'zula.ir#Ni3',
-        	'www.visa.com.sg:2053#Ni4',
-        ];
+        // Everything you want, Cloudflare Domains & Clean IP addresses.
+        'www.speedtest.net:443#Ni1',
+        'sky.rethinkdns.com#Ni2',
+        'creativecommons.org#Ni3',
+        'time.cloudflare.com:2053#Ni4',
+      ];
         ```
 
 4.  Access subscription content:
@@ -89,15 +89,16 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
   
 2. Add preferred route:
    - Add variables `ADD` Local static preferred line, if there is no port number, the default TLS port is 443, and the # number is followed by a remark alias, for example:
-       ```js
-        discord.com#You can just put the domain name as follows
-        www.speedtest.net:443#Ni1
-        time.is#Ni2
-        zula.ir#Ni3
-        www.visa.com.sg:2053#Ni4
-        104.17.152.41#IP Also available
-        [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6 also OK
-       ```
+     ```js
+     discord.com#You can just put the domain name as follows
+     www.speedtest.net:443#Ni1
+     speed.cloudflare.com#Ni2
+     zula.ir#Ni3
+     creativecommons.org:2053#Ni4
+     sky.rethinkdns.com#NI5
+     104.17.152.41#IPv4 is available
+     [2606:4700:e7:25:4b9:f8f8:9bfb:774a]#also IPv6
+     ```
 
 3. Access subscription content:
     - access `https://[YOUR-PAGES-URL]/[password]` Subscription content is available.
@@ -136,19 +137,10 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 | variable name | Example                                                                                                                                        | Remark                                                                                                                                          |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | PASSWORD      | auto                                                                                                                                           | Can take any value                                                                                                                              |
-| PROXYIP       | [click here](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md) or Use `ni.radically.pro`                                                                                                                         | As a proxy node to access the CloudFlareCDN site (supports multiple ProxyIPs, used between ProxyIPs`,`or line feed as interval)                 |
+| PROXYIP       | [click here](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md) or Use `ni.radically.pro`                                                                                                                         | Alternative proxy node for accessing CFCDN sites (supports multiple ProxyIPs, with ,1 or 2 line breaks between ProxyIPs))                 |
 | ADD           | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                                                | Local preferred domain name/preferred IP (supports multiple elements`,`or line feed as interval)                                                |
-| ADDAPI        | https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt                                                                                                                                               | No need to explain, everyone understands                                                                                                        |
-| ADDCSV        |                                                                                                                                                | No need to explain, everyone understands                                                                                                        |
-| DLS           | 8                                                                                                                                              | No need to explain, everyone understands                                                                                                        |
-| TGTOKEN       | 6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA                                                                                                 | Robot token for sending TG notifications                                                                                                        |
-| YOU DO        | 6946912345                                                                                                                                     | Account digital ID to receive TG notifications                                                                                                  |
-| SUB           | trojan.fxxk.dedyn.io                                                                                                                           | Preferred subscription generator address (using the subscriber will give up`ADD`local premium subscription content within )                     |
-| SUBAPI        | apiurl.v1.mk                                                                                                                                   | clash, singbox, etc. subscription conversion backend                                                                                            |
-| SUBCONFIG     | [https://raw.github.../ACL4SSR_Online_Mini.ini](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini) | clash, singbox, etc. Subscription conversion profiles                                                                                           |
-| SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                                                                               |
-| 02            | <https://t.me/F_NiREvil>                                                                                                                       | Home page 302 jump (supports multiple URLs, used between URLs)`,`Or line break as a spacer, don’t use it if you are new to it)                  |
-| URL           | <https://t.me/F_NiREvil>                                                                                                                       | Homepage disguise (supports multiple URLs, used between URLs)`,`Or use line breaks as intervals, random settings can easily trigger anti-fraud) |
+| ADDAPI        | https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt                                                                                                                                               | No need to explain, everyone understands                                                                                                        |                                                                                     |
+| SUBNAME       | REvil                                                                                                                                          | Subscription name                                                                         
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
 
