@@ -7,17 +7,18 @@ let proxyIP = ['ni.radically.pro']; // OR use ['cdn.xn--b6gac.eu.org', 'cdn-all.
 
 let addresses = [
 	// everything you want, When sub is empty, the local preferred domain name/preferred IP is enabled. If the port number is not provided, the default TLS port is 443, and the alias after the # sign is a remark
-	'icook.hk:2053#√-1',
-	'cdnjs.com:8443#√-2',
-	'zula.ir:443#√-3',
-	'vista.com:2053#√-4',
-	'speed.cloudflare.com:2083#√-5',
-	'sky.rethinkdns.com:443#√-6',
-	'www.speedtest.net::2087#√-7',
-	'time.cloudflare.com:2053#√-8',
-	'www.csgo.com:2083#√-9',
-	'go.inmobi.com:2053#√-10',
-	'creativecommons.org:443#√-11',
+	'zula.ir:443#Trauma-√1',
+	'icook.hk:2083#Trauma-√2',
+	'vista.com:2053#Trauma-√3',
+	'cdnjs.com:8443#Trauma-√4',
+	'go.inmobi.com:2053#Trauma-√5',
+	'www.csgo.com:2083#Trauma-√6',
+	'www.speedtest.net:443#Trauma-√7',
+	'sky.rethinkdns.com:2053#Trauma-√8',
+	'time.cloudflare.com:2053#Trauma-√9',
+	'creativecommons.org:443#Trauma-√10',
+	'speed.cloudflare.com:8443#Trauma-√11',
+
 ];
 
 let sub = '';
