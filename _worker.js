@@ -22,7 +22,7 @@ let addresses = [
 ];
 
 let sub = '';
-let subconverter = 'subapi-loadbalancing.pages.dev';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
+let subconverter = 'subapi.fxxk.dedyn.io';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
 
