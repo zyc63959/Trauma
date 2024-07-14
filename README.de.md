@@ -1,6 +1,6 @@
 # Stellen Sie einen Trojaner mit einem serverlosen CF-Workers & Pages bereit
 
-🇮🇷[persisch](README.fa.md)| 🇹🇷[Türkisch](README.tr.md)
+🇮🇷[persisch](README.fa.md)| 🇹🇷[Turkish](README.tr.md)
 
 🇬🇧[Englisch](README.md)|  🇩🇪[Deutschland](README.de.md)
 
@@ -16,7 +16,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 -   [Bereitstellungsmethode für Seiten](#Pages-deployment-method)
 -   [ProxyIP](#proxyIP)
 -   [Beschreibung der Umgebungsvariablen](#Environment-variables-description)
--   [Videoanleitungen](#Video-tutorials)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+-   [Video tutorials](#Video-tutorials)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <details>
 <summary> Use </summary>
@@ -84,7 +84,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
     -   existieren`Setting up build and deployment`Wählen Sie unten auf der Seite aus`Environment variables (advanced)`später zusammenführen[Variablen hinzufügen](#Environment-variables-description),
     -   Geben Sie den Variablennamen ein**PASSWORT**, der Wert ist Ihr Passwort, dann klicken Sie`Save and deploy`Das ist es.
 
-2.  Bevorzugte Route hinzufügen:
+2.  Add preferred route:
     -   Variablen hinzufügen`ADD`Lokale statische bevorzugte Leitung. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und auf die #-Nummer folgt ein Bemerkungsalias, zum Beispiel:
         ```js
         discord.com#You can just put the domain name as follows
@@ -124,17 +124,17 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
 ## Beschreibung der Umgebungsvariablen
 
-> [!NOTIZ]Es reicht aus, nur zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+> [!NOTIZ]Es genügt, zwei davon festzulegen, die erste Variable`PASSWORD`und der zweite`PROXYIP`Die in der folgenden Tabelle aufgeführten Variablen dienen nur zu Bildungszwecken und zusätzlichen Erläuterungen.![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-| Variablennamen                                                                                     | Beispiel                                                                                                       | Anmerkung                                                                                                                                |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| PASSWORT                                                                                           | Auto                                                                                                           | Kann jeden Wert annehmen                                                                                                                 |
-| PROXYIP                                                                                            | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)oder Verwendung`ni.radically.pro` | Alternativer Proxy-Knoten für den Zugriff auf CFCDN-Sites (unterstützt mehrere ProxyIPs mit 1 oder 2 Zeilenumbrüchen zwischen ProxyIPs)) |
-| HINZUFÜGEN                                                                                         | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                                  | Lokaler bevorzugter Domänenname/bevorzugte IP (unterstützt mehrere Elemente`,`oder Zeilenvorschub als Intervall)                         |
-| HINZUFÜGEN                                                                                         | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                           | Kein Grund zur Erklärung, jeder versteht es                                                                                              |
-| SUBAPI                                                                                             | subapi-loadbalancing.pages.dev                                                                                 | Clash, Singbox usw. Abonnementkonvertierungs-Backend                                                                                     |
-| UNTERNAME                                                                                          | REvil                                                                                                          | Abonnementname                                                                                                                           |
-| ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256) | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)             | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)                                       |
+| Variablennamen                                                                                     | Beispiel                                                                                                | Anmerkung                                                                                                                                |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| PASSWORT                                                                                           | Auto                                                                                                    | Kann jeden Wert annehmen                                                                                                                 |
+| PROXYIP                                                                                            | [klicken Sie hier](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md) or Use `ni.radically.pro` | Alternativer Proxy-Knoten für den Zugriff auf CFCDN-Sites (unterstützt mehrere ProxyIPs mit 1 oder 2 Zeilenumbrüchen zwischen ProxyIPs)) |
+| HINZUFÜGEN                                                                                         | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                           | Lokaler bevorzugter Domänenname/bevorzugte IP (unterstützt mehrere Elemente`,`oder Zeilenvorschub als Intervall)                         |
+| HINZUFÜGEN                                                                                         | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                    | Kein Grund zur Erklärung, jeder versteht es                                                                                              |
+| SUBAPI                                                                                             | subapi.fxxk.dedyn.io                                                                                    | Clash, Singbox usw. Abonnementkonvertierungs-Backend                                                                                     |
+| UNTERNAME                                                                                          | REvil                                                                                                   | Abonnementname                                                                                                                           |
+| ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256) | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)      | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)                                       |
 
 * * *
 
