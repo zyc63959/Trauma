@@ -47,7 +47,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 
     -   3\. satırı değiştir`password`Kendinize göre değiştirin**şifre**
 
-    -   Alternatif olarak doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
+    -   Alternatif olarak, doğrudan dağıtmak için aşağıdaki düğmeye tıklayabilirsiniz.
 
     [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
 
@@ -132,7 +132,7 @@ Bu, Cloudflare Worker platformunu temel alan bir komut dosyasıdır. Orijinal ve
 | PROXY IP                                                                                           | [buraya tıklayın](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)veya kullan`ni.radically.pro` | CFCDN sitelerine erişim için alternatif proxy düğümü (ProxyIP'ler arasında 1 veya 2 satır aralığı bulunan birden fazla ProxyIP'yi destekler)) |
 | EKLEMEK                                                                                            | [zula.ir,www.csgo.com:2087](http://zula.ir,www.csgo.com:2087)                                             | Yerel tercih edilen alan adı/tercih edilen IP (birden fazla öğeyi destekler)`,`veya aralık olarak satır besleme)                              |
 | EKLEMEK                                                                                            | <https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt>                                      | Açıklamaya gerek yok herkes anlıyor                                                                                                           |
-| SUBAPI                                                                                             | subapi.fxxk.dedyn.io                                                                                      | Clash, singbox vb. abonelik dönüşümü arka ucu                                                                                                 |
+| SUBAPI                                                                                             | apiurl.v1.mk                                                                                              | Clash, singbox vb. abonelik dönüşümü arka ucu                                                                                                 |
 | ALT AD                                                                                             | kötü                                                                                                      | Abonelik adı                                                                                                                                  |
 | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256) | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)        | ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)                                            |
 
