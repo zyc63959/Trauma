@@ -18,13 +18,10 @@ let addresses = [
 	'time.cloudflare.com:2053#Trauma-√9',
 	'[2a06:98c1:3120::3]#Trauma-V6-√10',
 	'[2a06:98c1:3121::3]#Trauma-V6-√11',
-	'[2606:4700:310c::ac42:2f9f]#Trauma-V6-√12',
-	'[2606:4700:310c::ac42:2c61]#Trauma-V6-√13',
-
 ];
 
 let sub = '';
-let subconverter = 'url.v1.mk';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
+let subconverter = 'SUBAPI.fxxk.dedyn.io';// Clash subscription conversion backend, currently using Feiyang's subscription conversion function. Comes with fake node information to prevent leakage
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
 
